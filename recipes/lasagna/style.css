@@ -1,6 +1,7 @@
 body {
     background-color: azure;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to right, green 0%, green 20%, azure 20%, azure 80%, red 80%, red 100%);
 }
 
 .title {
@@ -45,21 +46,28 @@ body {
     color: orange;
     font-size: 27px;
     font-weight: 600;
-    text-align: left;
+    text-align: center;
 }
 
 .sauce {
     font-size: 18px;
-    font-weight: bold
+    font-weight: bold;
+    text-align: center;
 }
 
 ul {
     font-style: oblique;
     list-style: circle;
+    text-align: justify;
+    text-align-last: center;
+    width: 1300px;
+    list-style-position: inside;
 }
 
 ol {
-    text-align: justify;
+    text-align: center;
     width: 900px;
+    list-style-position: inside;
 }
+
 

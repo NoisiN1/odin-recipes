@@ -65,9 +65,7 @@ ul {
 }
 
 ol {
-    text-align: center;
-    width: 900px;
+    text-align: justify;
+    text-align-last: center;
     list-style-position: inside;
 }
-
-

@@ -67,10 +67,7 @@ ul {
 ol {
     font-weight: bold;
     text-align: justify;
-    text-align-last: center;
     list-style-position: inside;
-    font-weight: 400;
     width: 1300px;
-    height: 800px;
+    height: 500px;
 }
-

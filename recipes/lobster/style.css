@@ -1,0 +1,75 @@
+body {
+    background-color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.39) 0%, rgba(0, 0, 255, 0.39) 50%, rgba(255, 255, 0, 0.622) 50%, rgba(255, 255, 0, 0.622) 100%);
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.button {
+    background-color: rgb(184, 74, 74);
+    font-size: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10%;
+}
+
+a {
+    color:aliceblue;
+    font-weight: bold;
+}
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+a:active {text-decoration: none;}
+
+.image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 550px;
+    height: 500px;
+    border-radius: 20%;
+}
+
+.subtitle {
+    text-align: center;
+    font-style: italic;
+    width: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    color: rgb(255, 0, 0);
+    font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+}
+
+ul {
+    font-style: oblique;
+    list-style: circle;
+    text-align: justify;
+    text-align-last: center;
+    width: 1320px;
+    list-style-position: inside;
+}
+
+ol {
+    text-align: center;
+    width: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    text-align-last: left;
+    -moz-text-align-last: justify;
+}
